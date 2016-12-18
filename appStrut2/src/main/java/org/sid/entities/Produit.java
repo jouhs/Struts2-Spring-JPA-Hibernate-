@@ -2,6 +2,7 @@ package org.sid.entities;
 
 import java.io.Serializable;
 
+
 public class Produit implements Serializable {
 	
 	private String reference;

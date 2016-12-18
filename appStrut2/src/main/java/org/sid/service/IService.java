@@ -2,6 +2,7 @@ package org.sid.service;
 
 import java.util.List;
 
+
 public interface IService<T> {
 	public void add(T t);
 

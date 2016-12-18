@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class CatalogueServiceImp implements IService<Produit> {
 	private IRepository<Produit> dao;
 
+	
 	public void setDao(IRepository<Produit> dao) {
 		this.dao = dao;
 	}

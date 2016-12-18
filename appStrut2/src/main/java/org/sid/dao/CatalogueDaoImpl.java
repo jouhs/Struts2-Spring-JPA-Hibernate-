@@ -12,6 +12,7 @@ public class CatalogueDaoImpl implements IRepository<Produit> {
 
 	@PersistenceContext
 	private EntityManager em;
+	
 	public void add(Produit t) {
 		em.persist(t);
 		

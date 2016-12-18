@@ -25,6 +25,7 @@ public class ProduitAction extends ActionSupport {
 			service.add(produit);
 		else{
 			service.update(produit);
+	
 			editMode = false;
 			produit = new Produit();
 		}
