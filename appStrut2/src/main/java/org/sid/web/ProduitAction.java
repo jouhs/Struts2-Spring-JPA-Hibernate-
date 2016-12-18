@@ -34,13 +34,13 @@ public class ProduitAction extends ActionSupport {
 
 	public String edit() {
 		editMode = true;
-		service.getOne(Long.valueOf(ref));
+		service.getOne(ref);
 		produits = service.findAll();
 		return SUCCESS;
 	}
 
 	public String delete() {
-		service.delete(Long.valueOf(ref));
+		service.delete(ref);
 		produits = service.findAll();
 		return SUCCESS;
 	}
